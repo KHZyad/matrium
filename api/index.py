@@ -4,4 +4,4 @@ app = create_app()
 
 @app.route('/')
 def health_check():
-    return "Flask app is running on Vercel!", 200
+    return "Hello MATRIUM!", 200
