@@ -1,7 +1,7 @@
 from flask import Flask
-from app.routes.user_routes import user_routes
-from app.routes.product_routes import product_routes
-from app.routes.defect_routes import defect_routes
+from app.routes.user_routes import user_bp as user_routes
+from app.routes.product_routes import product_bp as product_routes
+from app.routes.defect_routes import defect_bp as defect_routes
 from app.routes.recipe_routes import recipe_routes  # Import the new blueprint
 
 def create_app():
